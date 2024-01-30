@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #282828;
+}
+
+body {
+    font-family: 'Readex Pro', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: rgb(255,255,255);
+}
+
+/* Transitions */
+
+a, .btn {
+    transition: all 300ms ease;
+}
+
+/* PC Nav */
+
+nav, .nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    color: #bb86fc;
+    text-decoration: none;
+    text-decoration-color: #282828;
+}
+
+a:hover {
+    color: #03dac6;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: #03dac6;
+}
+
+.logo {
+    font-size: 2rem;
+    color: #bb86fc;
+}
+
+.logo {
+    cursor: default;
+}
+
+/* Menu */
+
+#menu-nav {
+    display: none;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}

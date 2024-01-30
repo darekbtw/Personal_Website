@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darek's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaStyles.css">
+</head>
+<body>
+    <nav id="pc-nav">
+        <div class="logo">Darek Nowak</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="">About</a></li>
+                <li><a href="">Skills</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="menu-nav">
+        <div class="logo">Darek Nowak</div>
+        <div class="menu">
+            <div class="icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="" onclick="toggleMenu()">About</a></li>
+                <li><a href="" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <script src="index.js"></script>
+</body>
+</html>
