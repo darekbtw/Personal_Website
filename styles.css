@@ -24,6 +24,10 @@ a, .btn {
     transition: all 300ms ease;
 }
 
+.blue {
+    color: rgb(5,175,249);
+}
+
 /* PC Nav */
 
 nav, .nav-links {
@@ -43,21 +47,21 @@ nav {
 }
 
 a {
-    color: #bb86fc;
+    color: rgb(5,175,249);
     text-decoration: none;
     text-decoration-color: #282828;
 }
 
 a:hover {
-    color: #03dac6;
+    color: white;
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: #03dac6;
+    text-decoration-color: white;
 }
 
 .logo {
     font-size: 2rem;
-    color: #bb86fc;
+    color: rgb(5,175,249);
 }
 
 .logo {
@@ -79,15 +83,15 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 24px;
-    width: 30px;
+    height: 30px;
+    width: 36px;
     cursor: pointer;
 }
 
 .icon span {
     width: 100%;
     height: 2px;
-    background-color: #bb86fc;
+    background-color: rgb(5,175,249);
     transition: all 0.3 ease-in-out;
 }
 
@@ -107,7 +111,7 @@ a:hover {
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
-    color: #bb86fc;
+    color: rgb(5,175,249);
     text-decoration: none;
     transition: all 0.3 ease-in-out;
 }
@@ -146,3 +150,172 @@ a:hover {
 
 /* Sections */
 
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container {
+    display: flex;
+}
+
+/* Profile */
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+
+}
+
+.section__pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.section__text {
+    align-self: center;
+    text-align: center;
+
+}
+
+.section__text p {
+    font-weight: 600;
+}
+
+.section__text__p1 {
+    text-align: center;
+}
+
+.section__text__p2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+    color: #05aff9;
+}
+
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+/* Icons */
+
+.icon-experience {
+    cursor: pointer;
+    height: 2rem;
+}
+
+/* Buttons */
+
+.button-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.button {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.button-color {
+    border: rgb(5,175,249) 0.1rem solid;
+}
+
+.button-color:hover {
+    cursor: pointer;
+}
+
+.button-color {
+    color: rgb(5,175,249);
+}
+
+.button-color:hover {
+    background: rgb(5,175,249);
+    color: white;
+}
+
+.button-color {
+    background: none;
+}
+
+.button-container {
+    gap: 1rem;
+}
+
+/* About Section */
+
+#about {
+    position: relative;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-containers, .about-details-container {
+    display: flex;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+#about-p {
+    font-size: 1.1rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: #282828;
+    border: rgb(5,175,249) 0.1rem solid;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.section__pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.about-details-container, .icon-experience {
+    cursor: default;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+    cursor: pointer;
+}

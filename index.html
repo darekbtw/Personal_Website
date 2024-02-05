@@ -13,8 +13,8 @@
         <div class="logo">Darek Nowak</div>
         <div>
             <ul class="nav-links">
-                <li><a href="">About</a></li>
-                <li><a href="">Skills</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Skills</a></li>
                 <li><a href="">Projects</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
@@ -38,29 +38,59 @@
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src="graphics/Profile-pic.png" alt="Darek profile picture">
+            <img src="graphics/BluePic.png" alt="Darek profile picture">
         </div>
-        <div class="section_text">
+        <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Darek Nowak</h1>
             <p class="section__text__p2">Software Engineer</p>
             <div class="button-container">
-                <button class="button button-color-2"
+                <button class="button button-color"
                  onclick="window.open('/graphics/Resume_DN.pdf')"
                  >
                  Download Resume
                 </button>
-                <button class="button button-color-1"
+                <button class="button button-color"
                  onclick="location.href='./#contact'"
                  >
                  Contact Info
                 </button>
             </div>
             <div id="socials-container">
-                <img src="/graphics/LinkedInPurple.png" alt="LinkedIn Logo" class="icon" onclick="location.href='//www.linkedin.com/in/darek-nowak-0b3680189/'">
-                <img src="/graphics/github_icon_purple.png" alt="Github Logo" class="icon" onclick="location.href='//www.github.com/Nowakds'">
+                <img src="/graphics/linkedIn-blue.png" alt="LinkedIn Logo" class="icon" onclick="location.href='//www.linkedin.com/in/darek-nowak-0b3680189/'">
+                <img src="/graphics/blue-github.png" alt="Github Logo" class="icon" onclick="location.href='//www.github.com/Nowakds'">
             </div>
         </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./graphics/myLinkedPFP.jpeg" alt="Picture of Darek #2" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./graphics/blue-diploma.png" alt="diploma icon" class="icon-experience">
+                        <h3 class="blue">Education</h3>
+                        <p>MS Computer Science, IIT <br>BS Analytics, SLU</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./graphics/blue-certificate.png" alt="diploma icon" class="icon-experience">
+                        <h3 class="blue">Certifications</h3>
+                        <p>AWS Certified Developer Associate <br>Django - Code with Mosh</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                        <p id="about-p">Recent computer science graduate skilled in software development, data analysis, and web development,
+                            seeking a software engineer role. Committed to leveraging technology for solving complex challenges,
+                            enhancing organizational performance, and driving innovation. Skilled in collaborative teamwork in dynamic
+                            environments.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./graphics/blue-arrow.png" alt="Blue down arrow." class="icon-experience arrow" onclick="location.href='./#experience'">
     </section>
     <script src="index.js"></script>
 </body>
