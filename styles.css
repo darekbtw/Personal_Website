@@ -83,8 +83,8 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 30px;
-    width: 36px;
+    height: 24px;
+    width: 30px;
     cursor: pointer;
 }
 
@@ -417,4 +417,15 @@ article .icon {
 .email-icon {
     height: 2.5rem;
     width: 2.5rem;
+}
+
+/* Footer Section */
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
 }
