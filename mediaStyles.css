@@ -91,5 +91,28 @@
     .text-container {
         text-align: justify;
     }
+    
+}
+
+/* Adjustments for screens larger than 1400px */
+@media screen and (min-width: 1401px) {
+    #profile {
+        height: 90vh; /* Increase height for larger visibility */
     }
+
+    .about-containers, .section-container {
+        max-width: 1200px; /* Adjust max-width for better spacing */
+        margin: 0 auto; /* Center align the containers */
+    }
+
+    .section__pic-container {
+        width: 350px; /* Increase size for larger screens */
+        height: 350px;
+    }
+
+    article, .contact-info-container p, .nav-links li a, .skills-subtitle, .logo, .section__text__p2, .title, .text-container {
+        font-size: calc(1rem + 0.5vw); /* Slightly increase font size based on viewport width */
+    }
+
+    /* Add more custom styles here to suit your larger layout */
 }
