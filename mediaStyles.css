@@ -13,10 +13,10 @@
   }
   
   @media screen and (max-width: 1200px) {
-    #desktop-nav {
+    #pc-nav {
       display: none;
     }
-    #hamburger-nav {
+    #menu-nav {
       display: flex;
     }
     #experience,
